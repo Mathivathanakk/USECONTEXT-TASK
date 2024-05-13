@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
+* {
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+}
+.navbar {
+  background-color: pink;
+}
+.card .quantity {
+  display: grid;
+  justify-content: center;
+}
+.card {
+  background-color: aquamarine;
+  border-radius: 50px;
+}
