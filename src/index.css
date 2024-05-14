@@ -4,15 +4,13 @@
   font-optical-sizing: auto;
   font-weight: medium;
   font-style: normal;
+  color: black;
 }
 .navbar {
-  background-color: pink;
+  background-color: rgb(245, 200, 208);
 }
-.card .quantity {
-  display: grid;
-  justify-content: center;
-}
+
 .card {
-  background-color: aquamarine;
-  border-radius: 50px;
+  background-color: rgb(255, 225, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
