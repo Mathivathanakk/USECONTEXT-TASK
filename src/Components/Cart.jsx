@@ -68,17 +68,14 @@ const Cart = () => {
                 <div className="row">
                   <div className="col-md-4">
                     {/* image */}
-                    {element.images.map((ele, i) => {
-                      return (
-                        <div Key={i}>
+                    
+                       
                           <img
-                            src={ele}
+                            src={element.images[0]}
                             className="card-img-top"
                             alt="phone-image"
                           />
-                        </div>
-                      );
-                    })}
+                    
                     {/* remove button */}
                     <button
                       onClick={() => removeCart(element.id)}
